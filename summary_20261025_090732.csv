@@ -1,0 +1,5 @@
+concurrency,requests,successful,failed,duration_seconds,total_output_tokens,requests_per_second,output_tokens_per_second,average_latency_seconds,p50_latency_seconds,p95_latency_seconds
+1,16,16,0,31.438,1600,0.509,50.894,1.964,1.894,2.764
+2,16,16,0,16.502,1600,0.97,96.96,2.029,2.044,2.185
+4,16,16,0,8.185,1600,1.955,195.487,2.032,1.991,2.157
+8,16,16,0,6.899,1600,2.319,231.907,2.821,2.334,3.504

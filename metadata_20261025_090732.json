@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "endpoint": "http://localhost:8000/v1/chat/completions",
+  "max_output_tokens": 100,
+  "requests_per_level": 16,
+  "concurrency_levels": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "prompt": "Explain the main benefits of Kubernetes for deploying machine learning applications.",
+  "benchmark_type": "closed batch waves",
+  "note": "Client-observed latency via kubectl port-forward. Output throughput includes all completed requests."
+}
